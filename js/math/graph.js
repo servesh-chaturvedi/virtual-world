@@ -36,7 +36,7 @@ class Graph {
   }
 
   tryAddSegment(segment) {
-    if (!this.hasSegment(segment)) {
+    if (!this.hasSegment(segment) && !segment.p1.equals(segment.p2)) {
       this.addSegment(segment)
       return true
     }
