@@ -1,0 +1,9 @@
+body {
+  background: hsl(229, 84%, 5%);
+  color: whitesmoke;
+  text-align: center;
+}
+
+canvas {
+  background: rebeccapurple;
+}
